@@ -14,13 +14,13 @@
     theme: 'lx',
     version: '0.0.0',
     localsearch:{
-      "enable": false,
+      "enable": true,
       "trigger": "auto",
       "top_n_per_article": 1,
       "unescape": false,
       "preload": false
       },
-    path: '-'
+    path: 'search.xml'
   };
 </script>
 
@@ -33,7 +33,7 @@
 	$(".menu-container").jSideMenu({
 	    jSidePosition: "position-right",
 	    jSideSticky: true,
-	    jSideSkin: "endless-river",
+	    jSideSkin: "grey",
 	     });
 	}); 
 	</script>
@@ -43,37 +43,88 @@
 <meta name="generator" content="Hexo 4.2.0"></head>
 <body>
 <div id="page">
-<div id="lx-aside" style="background-image: url(/images/cover.jpg)">
+<div id="lx-aside" style="background-image: url(/images/cover1.jpg)">
   <div class="overlay">
   <div class="featured">
-    <div class="avatar"><a href="/"><img src="/images/person_1.jpg"></a></div>
-    <span>A.Sign 一斑</span>
-    <h2>A.Sign ART SPACE</h2>
-    <span>——林间一湾流动的海</span>
-    
+    <div class="avatar"><a href="/"><img src="/images/person_4.jpg"></a></div>
+    <h1>A.Sign 一斑</h1>
+    <h4>A.Sign ART SPACE</h4>
+    <span>一楫春风 半亩方塘</span>
+    <span><a href="/"></i>Home</a></span>
+    <span><a href="/categories/Writings"></i>Writings</a></span>
+    <span><a href="/categories/Photos"></i>Photos</a></span>
+    <span><a href="/categories/Reviews"></i>Reviews</a></span>
+    <span><a href="/about/"></i>About</a></span>
+
+    <script type="text/javascript" charset="utf-8" src="/js/tagcloud.js"></script>
+    <script type="text/javascript" charset="utf-8" src="/js/tagcanvas.js"></script>
+    <div class="widget-wrap">
+        <h1><i class="fa fa-tag"></i>tags</h1>
+        <div id="myCanvasContainer" class="widget tagcloud">
+            <canvas width="250" height="80" id="resCanvas" style="width=100%">
+                <a href="/tags/jottings/" style="font-size: 10px;">jottings</a> <a href="/tags/manual/" style="font-size: 20px;">manual</a>
+            </canvas>
+        </div>
+    </div>
+
+
   </div>
   </div>
 </div>
+
 <div id="lx-main-content">
   <div class="lx-post"> 
 
   <div class="lx-entry padding">
     <div>
-      <h2><a href="/2020/02/27/hello-world/">Hello World</a></h2>
-      <span class="lx-post-detail"><i class="fa fa-calendar-o"></i> 2020-02-27</span>
-      <p></p>
+      <h2><a href="/2020/02/28/real-hello/">Real Hello</a></h2>
+      <h1><p><img src="/2020/02/28/real-hello/person_4.jpg" alt="测试图片"><br>终于发布了我的博客网站。<br>像是一个婴儿，经历羊水之中诞生前的痛，终于向这世界，睁开了眼睛。<br>在这里说一声，你好，世界。</p></h1>
+      <span class="lx-post-detail"><i class="fa fa-calendar-o"></i> 2020-02-28 21:00:06 | <i class="fa fa-folder-o"></i> <a class="category-link" href="/categories/Photos/">Photos</a>,<a class="category-link" href="/categories/Writings/">Writings</a> | <i class="fa fa-tag"></i> <a class="tag-link" href="/tags/jottings/" rel="tag">jottings</a></span>
+    </div>
+  </div>
+  <div class="lx-entry padding">
+    <div>
+      <h2><a href="/2020/02/27/theme-readme/">Theme-Lx Readme</a></h2>
+      <h1><img src="images/page-cover.jpg"></h1>
+      <span class="lx-post-detail"><i class="fa fa-calendar-o"></i> 2020-02-27 10:22:13 | <i class="fa fa-folder-o"></i> <a class="category-link" href="/categories/Reviews/">Reviews</a> | <i class="fa fa-tag"></i> <a class="tag-link" href="/tags/manual/" rel="tag">manual</a></span>
+    </div>
+  </div>
+  <div class="lx-entry padding">
+    <div>
+      <h2><a href="/2020/02/06/hello-world/">Hello World</a></h2>
+      <h1><p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p></h1>
+      <span class="lx-post-detail"><i class="fa fa-calendar-o"></i> 2020-02-06 20:48:23 | <i class="fa fa-folder-o"></i> <a class="category-link" href="/categories/Reviews/">Reviews</a> | <i class="fa fa-tag"></i> <a class="tag-link" href="/tags/manual/" rel="tag">manual</a></span>
     </div>
   </div>
  
 
 
+
 <footer>
   <div>
-  Copyright &copy; 2019.<a href="/">A.Sign ART SPACE</a><br>Powered by <a href="https://hexo.io" target="_blank">Hexo</a> | Theme <a href="https://lx.blleng.cn" target="_blank">Lx</a><br>
+  Copyright &copy; 2020.<a href="/">A.Sign ART SPACE</a><br>Powered by <a href="https://hexo.io" target="_blank">Hexo</a> | Theme <a href="https://lx.blleng.cn" target="_blank">Lx</a><br>
   </div>
 </footer>
+
   </div>
 </div>
+</div>
+<a href="javascript:;" class="popup-trigger"><i class="menu-item-icon fa fa-search fa-fw"></i></a>
+<div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off"
+             placeholder="Search..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
 </div>
 
 <button class="menu-trigger"></button>
@@ -83,29 +134,22 @@
       <div class="col">
         <div class="row for-pic">
           <div class="profile-pic">
-            <a href="/"><img src="/images/person_1.jpg" alt="A.Sign 一斑"/></a>
           </div>
         </div>
         <div class="row for-name">
-          <p>A.Sign 一斑</p>
-          <span class="tagline">Hello, World!</span>
         </div>
       </div>
     </span>
   </div>
   <nav class="menu-container">
   <ul class="menu-items">
-    <li><a href="/"><i class="fa fa-home fa-fw"></i>首页</a></li>
-    <li><a href="/archives/"><i class="fa fa-archive fa-fw"></i>归档</a></li>
+    
+    <li><a href="/archives/"><i class="fa fa-archive fa-fw"></i>Archives</a></li>
+    <li><a href="/contact/"><i class="fa fa-email fa-fw"></i>Contact</a></li>
+    <li><a href="/reward/"><i class="fa fa-reward fa-fw"></i>Reward</a></li>
+    
     <li class="has-sub"><span class="dropdown-heading">
-      <i class="fa fa-bookmark fa-fw"></i>页面</span>
-        <ul>
-          <li><a href="/guestbook">留言</a></li>
-        <li><a href="/about">关于</a></li>
-        </ul>
-    </li>
-    <li class="has-sub"><span class="dropdown-heading">
-      <i class="fa fa-link fa-fw"></i>友链</span>
+      <i class="fa fa-link fa-fw"></i>Links</span>
         <ul>
           <li> <a href="https://lx.blleng.cn" target="_blank">Theme-Lx</a></li>
         </ul>
@@ -121,7 +165,7 @@
 <script src="/js/jquery.waypoints.min.js"></script>
 <script src="/js/jquery.stellar.min.js"></script>
 <script src="/js/main.js"></script>
-
+<script src="/js/local.search.js"></script>
 
 </body>
 </html>

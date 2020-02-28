@@ -37,8 +37,8 @@ a:focus {
   text-decoration: none;
 }
 p {
-  font-size: 15px;
-  line-height: 24px;
+  font-size: 18px;
+  line-height: 48px;
 }
 h1,
 h2,
@@ -102,7 +102,7 @@ h2.category {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0,0,0,0.5);
+  background: rgba(0,0,0,0.3);
   z-index: 1;
 }
 #lx-aside {
@@ -117,13 +117,26 @@ h2.category {
   background-repeat: no-repeat;
   background-position: center center;
 }
-.single #lx-aside {
+.single .lx-post #lx-aside {
   position: relative;
-  height: 450px;
-  width: 100%;
+  height: 323px;
+  left: 5%;
+  width: 90%;
+}
+.single #lx-aside {
+  width: 17%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  height: 100%;
+  z-index: 3;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 #lx-aside a {
-  color: rgba(255,255,255,0.5);
+  color: rgba(255,255,255,0.6);
 }
 #lx-aside a:hover {
   color: #fff;
@@ -145,35 +158,51 @@ h2.category {
   z-index: 1;
   background: rgba(0,0,0,0.5);
 }
-.single #lx-aside .page-title {
+#lx-aside .page-title {
   right: 0;
   left: 0;
 }
-#lx-aside .page-title {
-  z-index: 2;
-  padding: 30px;
+.single .lx-post .page-title {
+  right: 0;
+  left: 0;
 }
 #lx-aside .featured {
   z-index: 2;
   margin: auto;
-  margin-top: 25%;
-  width: 85%;
+  margin-top: 18%;
+  width: 80%;
 }
-.single #lx-aside .page-title {
+.single .lx-post .page-title {
   margin: 0 auto;
   text-align: center;
+}
+#lx-aside .featured h1,
+#lx-aside .page-title h1 {
+  color: rgba(255,255,255,0.8);
+  font-size: 18px;
 }
 #lx-aside .featured h2,
 #lx-aside .page-title h2 {
   color: #fff;
-  font-weight: 300;
+  font-size: 20px;
 }
-.single #lx-aside .featured h2,
-.single #lx-aside .page-title h2 {
-  font-size: 52px;
+#lx-aside .featured h3,
+#lx-aside .page-title h3 {
+  color: #fff;
+  font-size: 30px;
+}
+#lx-aside .featured h4,
+#lx-aside .page-title h4 {
+  color: #fff;
+  font-size: 40px;
+}
+#lx-aside .featured h5,
+#lx-aside .page-title h5 {
+  color: #fff;
+  font-size: 50px;
 }
 @media (max-width: 768px) {
-  .single #lx-aside .page-title h2 {
+  .single .lx-post .page-title h2 {
     font-size: 40px;
   }
 }
@@ -204,7 +233,7 @@ h2.category {
   line-height: 24px;
   padding: 0;
   color: #000;
-  background: radial-gradient(#3ea055, #00fcff);
+  background: radial-gradient(#989898, #f2f2f2);
   font-size: 20px;
   border-radius: 50%;
   z-index: 5;
@@ -350,13 +379,16 @@ footer {
   z-index: 4;
 }
 .single #lx-main-content {
-  margin-left: 0;
-  max-width: 960px;
-  margin: 0 auto;
+  margin-left: 20%;
+  margin-right: 3%;
+  position: relative;
+  z-index: 4;
 }
 @media screen and (max-width: 768px) {
   #lx-main-content {
-    margin-left: 0;
+    margin-left: 20%;
+    position: relative;
+    z-index: 4;
   }
 }
 .lx-post-detail {
@@ -390,6 +422,7 @@ a.category-link {
   width: 100%;
   float: left;
   margin-top: 0px;
+  font-family: "Helvetica Neue", "Helvetica", "Hiragino Sans GB", "Microsoft YaHei", "Source Han Sans CN", "WenQuanYi Micro Hei", Arial, sans-serif;
 }
 .single .lx-post .lx-entry > div {
   margin-right: 0;
@@ -446,7 +479,7 @@ a.category-link {
 }
 .lx-navigation .lx-cover .copy .display-t,
 .lx-navigation .lx-cover .copy .display-tc {
-  height: 270px;
+  height: 250px;
   display: table;
   width: 100%;
 }
@@ -582,7 +615,7 @@ a.category-link {
   top: 120px;
 }
 .position-right {
-  right: -270px;
+  right: -80px;
 }
 .position-right.open {
   right: 0;
@@ -600,7 +633,7 @@ a.category-link {
 .menu-head {
   background: var(--skin);
   position: fixed;
-  width: 270px;
+  width: 80px;
 }
 .menu-head .layer {
   background: rgba(0,0,0,0.2);
@@ -629,7 +662,7 @@ a.category-link {
   user-select: none;
 }
 .menu-items li i {
-  font-size: 16px;
+  font-size: 14px;
   margin-right: 10px;
 }
 .dropdown-heading:hover,
@@ -663,7 +696,7 @@ a.category-link {
 }
 .has-sub i.fa-chevron-down {
   float: right;
-  margin-right: 10px;
+  margin-right: 0;
   transition: 0.36s;
   font-size: 16px;
 }
@@ -682,16 +715,16 @@ a.category-link {
   display: table-cell;
 }
 .for-name {
-  max-width: 140px;
+  max-width: 50px;
   padding: 10px;
   color: var(--skin-color);
 }
 .for-pic {
-  max-width: 70px;
+  max-width: 50px;
 }
 .profile-pic img {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   border: 1px solid rgba(255,255,255,0.01);
   object-fit: cover;
@@ -1238,7 +1271,7 @@ blockquote div {
 .single .lx-post .lx-entry a.btn {
   display: inline-block;
   padding: 0 20px;
-  font-size: 14px;
+  font-size: 18px;
   color: #555;
   background: #fff;
   border: 2px solid #555;
