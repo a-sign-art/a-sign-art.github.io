@@ -19,15 +19,13 @@
   <entry>
     <title>Theme-Lx Readme</title>
     <url>/2020/02/27/theme-readme/</url>
-    <content><![CDATA[<img src="images/page-cover.jpg">
-
+    <content><![CDATA[<p><img src="/2020/02/27/theme-readme/demo.jpg" alt="demo"><br>示例</p>
 <a id="more"></a>
 <h1 id="Hexo-Theme-Lx"><a href="#Hexo-Theme-Lx" class="headerlink" title="Hexo-Theme-Lx"></a>Hexo-Theme-Lx</h1><p><a href="https://github.com/blleng/hexo-theme-lx/releases/" target="_blank" rel="noopener"><img src="https://img.shields.io/github/release/blleng/hexo-theme-lx.svg" alt="Github Release"></a><br><a href="https://github.com/blleng/hexo-theme-lx/blob/master/LICENSE" target="_blank" rel="noopener"><img src="https://img.shields.io/github/license/blleng/hexo-theme-lx.svg" alt="Github License"></a></p>
 <blockquote>
 <p>尚在开发中。归档、分类 、标签页面还有待完善。<br>…<br>欢迎Fork，欢迎Clone，不拒绝Star</p>
 </blockquote>
 <p>Demo:<a href="https://lx.blleng.cn" target="_blank" rel="noopener">https://lx.blleng.cn</a></p>
-<h2 id="示例"><a href="#示例" class="headerlink" title="示例"></a>示例</h2><p><img src="/2020/02/27/theme-readme/demo.jpg" alt="demo"></p>
 <h2 id="使用："><a href="#使用：" class="headerlink" title="使用："></a>使用：</h2><p>在博客根目录:</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://github.com/blleng/hexo-theme-lx themes/lx</span><br></pre></td></tr></table></figure>
 
