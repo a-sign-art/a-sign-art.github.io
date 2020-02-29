@@ -14,17 +14,17 @@
     theme: 'lx-bk',
     version: '0.0.0',
     localsearch:{
-      "enable": true,
+      "enable": false,
       "trigger": "auto",
       "top_n_per_article": 1,
       "unescape": false,
       "preload": false
       },
-    path: 'search.xml'
+    path: '-'
   };
 </script>
 
-  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="shortcut icon" href="/images/logo.png">
   <link rel="stylesheet" href="/css/main.css">
   <script src="/js/jquery.min.js"></script>
   <script src="/js/jquery.jside.menu.js"></script>
@@ -95,7 +95,7 @@ A.Sign 一斑
 <p>从前天开始突发奇想建一个自己的博客网站，独属于自己的生活空间。<br>从Wordpress到Hexo+GitHub到Hexo+GitLab，作为一个零基础小白，基本上是一天尝试搭建一个平台。<br>昨天早上在Namesilo买下了人生中第一个域名，给小站选了一个漂亮的主题，这两天都在忙着装修，一点一点把这个小站建成自己喜欢的模样。<br>感觉自己真是高产，毕竟像我一样废寝忘食沉迷建站的人应该不多。<br>这几天也是挺神奇的，跟着教程一个命令一个命令地敲，在各种报错中摸索着修改主题的ejs和styl，慢慢调整着每个页面、每个元素的效果。<br>刚刚把最后一个tagcloud加到侧边栏里，基本框架就成形了，预览的那一刻真的太有成就感。<br>现在骨架已经搭好，之后就要慢慢把它填起来~<br>一会儿推送到git，就算是真正和大家见面啦！<br>很高兴在网络上有一个自己的小家，不同于任何门户网站、博客平台，是完完全全属于自己的网站。<br>在这里落脚扎根，在这里自由生长，看着自己一步一步，走出生命的脉络。</p>
 
       </div>
-<div class="comment"><div id="comments"></div></div>
+
 <div class="lx-navigation">
 	<div class="lx-cover prev lx-cover-sm" style="background-image: url(/images/footer_1.jpg)">
 		<div class="overlay"></div>
@@ -136,23 +136,6 @@ A.Sign 一斑
 </div>
 </div>
 
-<a href="javascript:;" class="popup-trigger"><i class="menu-item-icon fa fa-search fa-fw"></i></a>
-<div class="popup search-popup local-search-popup">
-  <div class="local-search-header clearfix">
-    <span class="search-icon">
-      <i class="fa fa-search"></i>
-    </span>
-    <span class="popup-btn-close">
-      <i class="fa fa-times-circle"></i>
-    </span>
-    <div class="local-search-input-wrapper">
-      <input autocomplete="off"
-             placeholder="Search..." spellcheck="false"
-             type="text" id="local-search-input">
-    </div>
-  </div>
-  <div id="local-search-result"></div>
-</div>
 
 <button class="menu-trigger"></button>
 <div class="menu">
@@ -161,7 +144,7 @@ A.Sign 一斑
       <div class="col">
         <div class="row for-pic">
           <div class="profile-pic">
-            <a href="/"><img src="/images/person.jpg" alt="A.Sign 一斑"/></a>
+            <a href="/"><img src="/images/logo.png" alt="A.Sign 一斑"/></a>
           </div>
         </div>
         <div class="row for-name">
@@ -178,12 +161,7 @@ A.Sign 一斑
     <li><a href="/"><i class="fa fa-home fa-fw"></i>首页</a></li>
     <li><a href="/archives/"><i class="fa fa-archive fa-fw"></i>归档</a></li>
     
-    <li class="has-sub"><span class="dropdown-heading">
-      <i class="fa fa-link fa-fw"></i>友链</span>
-        <ul>
-          <li> <a href="https://lx.blleng.cn" target="_blank">Theme-Lx</a></li>
-        </ul>
-    </li>
+    
   </ul>
   </nav>
 </div>
@@ -195,7 +173,6 @@ A.Sign 一斑
 <script src="/js/jquery.waypoints.min.js"></script>
 <script src="/js/jquery.stellar.min.js"></script>
 <script src="/js/main.js"></script>
-<script src="/js/local.search.js"></script>
 
 
 </body>
