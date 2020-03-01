@@ -1163,7 +1163,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #0f169f;
+  background: #0fd2ff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2199,6 +2199,7 @@ hr {
   display: none;
 }
 .main-inner {
+  background: #fff;
   padding-bottom: 80px;
 }
 @media (max-width: 767px) {
@@ -2220,7 +2221,6 @@ hr {
   }
 }
 .footer {
-  background: #f5f5f5;
   color: #666;
   padding: 10px 0;
 }
@@ -2234,7 +2234,7 @@ hr {
   }
 }
 .header {
-  background: var(--content-bg-color);
+  background: #fff;
 }
 .header-inner {
   align-items: center;
@@ -2387,13 +2387,13 @@ hr {
   border-bottom-color: var(--link-hover-color);
 }
 .sidebar {
-  left: -500px;
+  left: -520px;
 }
 .sidebar.sidebar-active {
   left: 0;
 }
 .sidebar {
-  width: 500px;
+  width: 520px;
   z-index: 1200;
   transition-delay: 0s;
   transition-duration: 0.2s;
@@ -2420,6 +2420,19 @@ hr {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+.sidebar {
+  background: url("/images/cover-l.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.sidebar p,
+.sidebar span {
+  color: #fff;
+}
+.sidebar a {
+  color: rgba(255,255,255,0.7);
 }
 .sub-menu {
   margin: 10px 0;

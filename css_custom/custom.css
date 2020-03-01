@@ -1,0 +1,11 @@
+#sidebar {
+  background: url("/images/cover-l.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#sidebar p,
+#sidebar span,
+#sidebar a {
+  color: #ffb6c1;
+}
