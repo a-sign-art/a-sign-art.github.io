@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>夜雨</title>
+    <url>/2020/03/01/rain/</url>
+    <content><![CDATA[<p>昨夜下了很大的雨，家人都睡了，而我正在看书，忽然听到大雨落地的声音，连绵不绝，滂沱得仿佛不在人间。早上起来拉开窗帘，却发现是个明媚的晴天，昨夜的雨仿佛只是一个梦境，只有地上的湿痕证明它曾经存在。</p>
+]]></content>
+      <categories>
+        <category>Writings</category>
+      </categories>
+      <tags>
+        <tag>jottings</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Real Hello</title>
     <url>/2020/02/28/real-hello/</url>
-    <content><![CDATA[<p><img src="/2020/02/28/real-hello/photo.jpg" alt="My Photo"><br>终于发布了我的博客网站。<br>像是一个婴儿，经历羊水之中诞生前的痛，终于向这世界，睁开了眼睛。<br>在这里说一声，你好，世界。</p>
+    <content><![CDATA[<p><img src="/2020/02/28/real-hello/photo.jpg" alt="My Photo"><br>终于发布了我的博客网站。<br>像是一个婴儿，经历诞生前的痛，终于向这世界，睁开了眼睛。<br>在这里说一声，你好，世界。</p>
 <a id="more"></a>
 <p>-</p>
 <p>从前天开始突发奇想建一个自己的博客网站，独属于自己的生活空间。<br>从Wordpress到Hexo+GitHub到Hexo+GitLab，作为一个零基础小白，基本上是一天尝试搭建一个平台。<br>昨天早上在Namesilo买下了人生中第一个域名，给小站选了一个漂亮的主题，这两天都在忙着装修，一点一点把这个小站建成自己喜欢的模样。<br>感觉自己真是高产，毕竟像我一样废寝忘食沉迷建站的人应该不多。<br>这几天也是挺神奇的，跟着教程一个命令一个命令地敲，在各种报错中摸索着修改主题的ejs和styl，慢慢调整着每个页面、每个元素的效果。<br>刚刚把最后一个tagcloud加到侧边栏里，基本框架就成形了，预览的那一刻真的太有成就感。<br>现在骨架已经搭好，之后就要慢慢把它填起来~<br>一会儿推送到git，就算是真正和大家见面啦！<br>很高兴在网络上有一个自己的小家，不同于任何门户网站、博客平台，是完完全全属于自己的网站。<br>在这里落脚扎根，在这里自由生长，看着自己一步一步，走出生命的脉络。</p>
@@ -14,88 +26,6 @@
       </categories>
       <tags>
         <tag>jottings</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Theme-Lx Readme</title>
-    <url>/2020/02/27/theme-readme/</url>
-    <content><![CDATA[<p><img src="/2020/02/27/theme-readme/demo.jpg" alt="demo"><br>示例</p>
-<a id="more"></a>
-<h1 id="Hexo-Theme-Lx"><a href="#Hexo-Theme-Lx" class="headerlink" title="Hexo-Theme-Lx"></a>Hexo-Theme-Lx</h1><p><a href="https://github.com/blleng/hexo-theme-lx/releases/" target="_blank" rel="noopener"><img src="https://img.shields.io/github/release/blleng/hexo-theme-lx.svg" alt="Github Release"></a><br><a href="https://github.com/blleng/hexo-theme-lx/blob/master/LICENSE" target="_blank" rel="noopener"><img src="https://img.shields.io/github/license/blleng/hexo-theme-lx.svg" alt="Github License"></a></p>
-<blockquote>
-<p>尚在开发中。归档、分类 、标签页面还有待完善。<br>…<br>欢迎Fork，欢迎Clone，不拒绝Star</p>
-</blockquote>
-<p>Demo:<a href="https://lx.blleng.cn" target="_blank" rel="noopener">https://lx.blleng.cn</a></p>
-<h2 id="使用："><a href="#使用：" class="headerlink" title="使用："></a>使用：</h2><p>在博客根目录:</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ git <span class="built_in">clone</span> https://github.com/blleng/hexo-theme-lx themes/lx</span><br></pre></td></tr></table></figure>
-
-<p>更改站点设置文件<code>_config.yml</code>:</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">theme:</span> <span class="string">lx</span></span><br></pre></td></tr></table></figure>
-
-<p>然后复制一份<code>themes/lx/re_config.yml</code>（这个文件是为了方便主题版本升级时不受<code>_config.yml</code>的影响，也方便备份。），命名为<code>_config.yml</code>，放在<code>themes/lx</code>目录下，主题的配置将在该文件中进行。</p>
-<h2 id="功能配置"><a href="#功能配置" class="headerlink" title="功能配置"></a>功能配置</h2><blockquote>
-<p>这里的说明并不完整，请参考<code>themes/lx/_config.yml</code>中的注释信息。</p>
-</blockquote>
-<h3 id="统计"><a href="#统计" class="headerlink" title="统计"></a>统计</h3><p>引入了百度统计和谷歌统计。</p>
-<p>启用：在<code>themes/lx/_config.yml</code>填写:</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">google_analytics:</span> <span class="string">...</span> <span class="comment">##谷歌统计ID</span></span><br><span class="line"><span class="attr">baidu_analytics:</span> <span class="string">...</span> <span class="comment">##百度统计ID</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="本地搜索"><a href="#本地搜索" class="headerlink" title="本地搜索"></a>本地搜索</h3><p>先下载插件<code>hexo-generator-searchdb</code>:</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ npm install hexo-generator-searchdb -s</span><br></pre></td></tr></table></figure>
-
-<p>在<code>themes/lx/_config.yml</code>中配置:</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">local_search:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br></pre></td></tr></table></figure>
-
-<p>更多配置详见<code>themes/lx/_config.yml</code>。</p>
-<h3 id="评论"><a href="#评论" class="headerlink" title="评论"></a>评论</h3><p>评论使用valine，官网：<a href="https://valine.js.org" target="_blank" rel="noopener">https://valine.js.org</a></p>
-<p>启用：在<code>themes/lx/_config.yml</code>填写:</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">comment:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span> <span class="comment"># true:启用 | false:停用</span></span><br><span class="line">  <span class="attr">appid:</span> <span class="string">...</span> <span class="comment">#leancloud appid</span></span><br><span class="line">  <span class="attr">appkey:</span> <span class="string">...</span> <span class="comment">#leancloud appkey</span></span><br><span class="line">  <span class="attr">notify:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">verify:</span> <span class="literal">false</span></span><br><span class="line">  <span class="attr">placeholder:</span> <span class="string">此处留言</span> <span class="comment">#评论框文字</span></span><br><span class="line">  <span class="attr">avatar:</span> <span class="string">identicon</span> <span class="comment">#游客默认头像</span></span><br><span class="line">  <span class="attr">guest_info:</span> <span class="string">nick,mail,link</span> <span class="comment">#评论时需填写的内容（均为选填）</span></span><br><span class="line">  <span class="attr">pageSize:</span> <span class="number">10</span> <span class="comment">#一次性展示的评论数</span></span><br><span class="line">  <span class="attr">language:</span> <span class="string">zh-cn</span></span><br></pre></td></tr></table></figure>
-
-<p>在文章头填入<code>comment: true</code>即可在该页面启用评论:</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">date: ...</span><br><span class="line">title: ...</span><br><span class="line">categories: ...</span><br><span class="line">tags: ...</span><br><span class="line">comment: true //启用评论</span><br><span class="line">mathjax: ...</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
-
-<p><code>appid</code>和<code>appkey</code>在leancloud创建应用后即可获取。</p>
-<h3 id="Social-Links"><a href="#Social-Links" class="headerlink" title="Social Links"></a>Social Links</h3><p>社交媒体链接，在<code>themes/lx/_config.yml</code>配置:</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">social:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span></span><br><span class="line">  <span class="attr">links:</span></span><br><span class="line">    <span class="comment">#Github: ... #去除开头的'#'注释符，填写链接即可</span></span><br></pre></td></tr></table></figure>
-
-<h3 id="Mathjax"><a href="#Mathjax" class="headerlink" title="Mathjax"></a>Mathjax</h3><p>支持数学公式和化学方程式。</p>
-<p>启用：在<code>themes/lx/_config.yml</code>填写:</p>
-<figure class="highlight yml"><table><tr><td class="code"><pre><span class="line"><span class="attr">mathjax:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">true</span>  <span class="comment">##true:启用 | false:停用</span></span><br><span class="line">  <span class="attr">cdn:</span> <span class="string">//cdn.bootcss.com/mathjax/2.7.5/latest.js?config=TeX-MML-AM_SVG</span>  <span class="comment">##为保证输出效果，选择SVG格式输出。</span></span><br></pre></td></tr></table></figure>
-
-<p>在文章头填入<code>mathjax: true</code>即可在该页面启用评论:</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">date: ...</span><br><span class="line">title: ...</span><br><span class="line">categories: ...</span><br><span class="line">tags: ...</span><br><span class="line">comment: ...</span><br><span class="line">mathjax: true //启用Mathjax</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
-
-<h2 id="文章写作样式"><a href="#文章写作样式" class="headerlink" title="文章写作样式"></a>文章写作样式</h2><h3 id="文章摘要"><a href="#文章摘要" class="headerlink" title="文章摘要"></a>文章摘要</h3><p>在<code>&lt;!--more--&gt;</code>标签之前的内容将作为文章摘要在首页展示。</p>
-<h3 id="Note-tag"><a href="#Note-tag" class="headerlink" title="Note tag"></a>Note tag</h3><p>可选用<code>default</code>、<code>info</code>、<code>primary</code>、<code>success</code>、<code>warning</code>、<code>danger</code>。</p>
-<p>示例：</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;%note default%&#125;</span><br><span class="line"><span class="section">### title</span></span><br><span class="line">content</span><br><span class="line">&#123;%endnote%&#125;</span><br></pre></td></tr></table></figure>
-
-<h3 id="Label-tag"><a href="#Label-tag" class="headerlink" title="Label tag"></a>Label tag</h3><p>可选用<code>default</code>、<code>info</code>、<code>primary</code>、<code>success</code>、<code>warning</code>、<code>danger</code>。</p>
-<p>示例：</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;%label default@content%&#125;</span><br></pre></td></tr></table></figure>
-
-<h3 id="Button-tag"><a href="#Button-tag" class="headerlink" title="Button tag"></a>Button tag</h3><p>标准样式：</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;%btn url,content,hand-o-right fa-fw,title%&#125;</span><br></pre></td></tr></table></figure>
-
-<p>说明：</p>
-<p><code>url</code>：指向的链接</p>
-<p><code>content</code>：内容</p>
-<p><code>hand-o-right fa-fw</code>：图标，可换成其他图标。<code>fa-fw</code>：fix width</p>
-<p><code>title</code>：title</p>
-<h3 id="center-quote-tag"><a href="#center-quote-tag" class="headerlink" title="center-quote tag"></a>center-quote tag</h3><p>示例：</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;%cq%&#125;</span><br><span class="line">人类的悲欢并不相通，我只觉得他们吵闹。<span class="xml"><span class="tag">&lt;<span class="name">br</span>&gt;</span></span><span class="xml"><span class="tag">&lt;<span class="name">strong</span>&gt;</span></span>——鲁迅<span class="xml"><span class="tag">&lt;/<span class="name">strong</span>&gt;</span></span></span><br><span class="line">&#123;%endcq%&#125;</span><br></pre></td></tr></table></figure>
-
-<h3 id="video-tag"><a href="#video-tag" class="headerlink" title="video tag"></a>video tag</h3><p>示例：</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;% video url %&#125;</span><br></pre></td></tr></table></figure>
-
-<p>说明：</p>
-<p><code>url</code>：视频链接</p>
-]]></content>
-      <categories>
-        <category>Reviews</category>
-      </categories>
-      <tags>
-        <tag>manual</tag>
       </tags>
   </entry>
   <entry>

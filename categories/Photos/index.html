@@ -17,15 +17,15 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"a-sign-art.com","root":"/","scheme":"Pisces","version":"7.7.1","exturl":false,"sidebar":{"position":"left","width":"38.2%","display":"always","padding":18,"offset":0,"onmobile":true},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+    var CONFIG = {"hostname":"a-sign-art.com","root":"/","scheme":"Mist","version":"7.7.1","exturl":false,"sidebar":{"position":"left","width":500,"display":"always","padding":18,"offset":12,"onmobile":true},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":true,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="让事情自然发生，让生命自由生长">
+  <meta name="description" content="一楫春风 半亩方塘">
 <meta property="og:type" content="website">
 <meta property="og:title" content="A.Sign ART SPACE">
 <meta property="og:url" content="http://a-sign-art.com/categories/Photos/index.html">
 <meta property="og:site_name" content="A.Sign ART SPACE">
-<meta property="og:description" content="让事情自然发生，让生命自由生长">
+<meta property="og:description" content="一楫春风 半亩方塘">
 <meta property="og:locale" content="en_US">
 <meta property="article:author" content="A.Sign 一斑">
 <meta name="twitter:card" content="summary">
@@ -37,8 +37,8 @@
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome : false,
-    isPost : false
+    isHome: false,
+    isPost: false
   };
 </script>
 
@@ -103,6 +103,7 @@
 
   <div class="site-nav-right">
     <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
     </div>
   </div>
 </div>
@@ -118,27 +119,27 @@
   </li>
         <li class="menu-item menu-item-writings">
 
-    <a href="/categories/Writings/" rel="section"><i class="fa fa-fw fa-book"></i>Writings</a>
+    <a href="/categories/Writings" rel="section"><i class="fa fa-fw fa-th"></i>Writings</a>
 
   </li>
         <li class="menu-item menu-item-photos">
 
-    <a href="/categories/Photos/" rel="section"><i class="fa fa-fw fa-camera-retro"></i>Photos</a>
+    <a href="/categories/Photos" rel="section"><i class="fa fa-fw fa-th"></i>Photos</a>
 
   </li>
         <li class="menu-item menu-item-reviews">
 
-    <a href="/categories/Reviews/" rel="section"><i class="fa fa-fw fa-film"></i>Reviews</a>
-
-  </li>
-        <li class="menu-item menu-item-archives">
-
-    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>Archives</a>
+    <a href="/categories/Reviews" rel="section"><i class="fa fa-fw fa-th"></i>Reviews</a>
 
   </li>
         <li class="menu-item menu-item-tags">
 
     <a href="/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>Tags</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>Archives</a>
 
   </li>
         <li class="menu-item menu-item-about">
@@ -148,12 +149,37 @@
   </li>
         <li class="menu-item menu-item-commonweal">
 
-    <a href="/404/" rel="section"><i class="fa fa-fw fa-heartbeat"></i>Commonweal</a>
+    <a href="/404/" rel="section"><i class="fa fa-fw fa-heartbeat"></i>Commonweal 404</a>
 
   </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
+        </a>
+      </li>
   </ul>
 
 </nav>
+  <div class="site-search">
+    <div class="popup search-popup">
+    <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocorrect="off" autocapitalize="off"
+           placeholder="Searching..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result"></div>
+
+</div>
+<div class="search-pop-overlay"></div>
+
+  </div>
 </div>
     </header>
 
@@ -175,41 +201,109 @@
   
   
   
+
+
+
   <div class="post-block">
-    <div class="posts-collapse">
       <div class="collection-title">
         <h1 class="collection-header">Photos
-          <small>Category</small>
         </h1>
       </div>
+  </div>
+
+
+  <div class="posts-expand">
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://a-sign-art.com/2020/02/28/real-hello/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/logo.png">
+      <meta itemprop="name" content="A.Sign 一斑">
+      <meta itemprop="description" content="一楫春风 半亩方塘">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="A.Sign ART SPACE">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/02/28/real-hello/" class="post-title-link" itemprop="url">Real Hello</a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2020-02-28 21:00:06" itemprop="dateCreated datePublished" datetime="2020-02-28T21:00:06+08:00">2020-02-28</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2020-03-01 19:06:58" itemprop="dateModified" datetime="2020-03-01T19:06:58+08:00">2020-03-01</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Writings/" itemprop="url" rel="index"><span itemprop="name">Writings</span></a>
+                </span>
+                  , 
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Photos/" itemprop="url" rel="index"><span itemprop="name">Photos</span></a>
+                </span>
+            </span>
+<span> &nbsp| &nbsp
+              <a href="/tags/jottings/" rel="tag"><i class="fa fa-tag"></i> jottings</a>
+</sapn>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    <div class="collection-year">
-      <h1 class="collection-header">2020</h1>
+          <p><img src="/2020/02/28/real-hello/photo.jpg" alt="My Photo"><br>终于发布了我的博客网站。<br>像是一个婴儿，经历诞生前的痛，终于向这世界，睁开了眼睛。<br>在这里说一声，你好，世界。</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2020/02/28/real-hello/#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
     </div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2020-02-28T21:00:06+08:00"
-              content="2020-02-28">
-          02-28
-        </time>
-      </div>
-
-      <h2 class="post-title">
-          <a class="post-title-link" href="/2020/02/28/real-hello/" itemprop="url">
-            <span itemprop="name">Real Hello</span>
-          </a>
-      </h2>
-
-    </header>
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
   </article>
+  
+  
+  
 
-    </div>
   </div>
+
+
   
   
   
@@ -274,7 +368,7 @@
     <img class="site-author-image" itemprop="image" alt="A.Sign 一斑"
       src="/images/logo.png">
   <p class="site-author-name" itemprop="name">A.Sign 一斑</p>
-  <div class="site-description" itemprop="description">让事情自然发生，让生命自由生长</div>
+  <div class="site-description" itemprop="description">一楫春风 半亩方塘</div>
 </div>
   <div class="links-of-author motion-element">
       <span class="links-of-author-item">
@@ -299,18 +393,16 @@
         
 
 <div class="copyright">
+  <span>Copyright</span>
   
   &copy; 
-  <span itemprop="copyrightYear">2020</span>
-  <span class="with-love">
-    <i class="fa fa-user"></i>
-  </span>
+  <span itemprop="copyrightYear">2020. </span>
   <span class="author" itemprop="copyrightHolder">A.Sign ART SPACE</span>
 </div>
   <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> v4.2.0
   </div>
   <span class="post-meta-divider">|</span>
-  <div class="theme-info">Theme – <a href="https://pisces.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Pisces</a> v7.7.1
+  <div class="theme-info">Theme – <a href="https://mist.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Mist</a> v7.7.1
   </div>
 
         
@@ -330,6 +422,7 @@
   
   <script color='0,0,0' opacity='1' zIndex='-1' count='99' src="/lib/canvas-nest/canvas-nest.min.js"></script>
   <script src="/lib/anime.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/medium-zoom@1/dist/medium-zoom.min.js"></script>
   <script src="/lib/velocity/velocity.min.js"></script>
   <script src="/lib/velocity/velocity.ui.min.js"></script>
 
@@ -338,7 +431,7 @@
 <script src="/js/motion.js"></script>
 
 
-<script src="/js/schemes/pisces.js"></script>
+<script src="/js/schemes/muse.js"></script>
 
 
 <script src="/js/next-boot.js"></script>
@@ -360,6 +453,10 @@
 
 
 
+  
+<script src="/js/local-search.js"></script>
+
+
 
 
 
@@ -374,16 +471,6 @@
   
 
   
-  <script src="//cdn.jsdelivr.net/npm/quicklink@1/dist/quicklink.umd.js"></script>
-  <script>
-      window.addEventListener('load', () => {
-      quicklink({
-        timeout : 3000,
-        priority: true,
-        ignores : [uri => uri.includes('#'),uri => uri == 'http://a-sign-art.com/categories/Photos/',]
-      });
-      });
-  </script>
 
 </body>
 </html>
