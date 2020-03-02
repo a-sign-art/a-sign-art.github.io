@@ -1146,7 +1146,7 @@ pre .javascript .function {
 .site-description {
   color: #999;
   font-size: 1em;
-  margin-top: 5px;
+  margin-top: 1px;
   text-align: center;
 }
 .links-of-author {
@@ -1163,7 +1163,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #ffbbcb;
+  background: #931b9a;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2403,6 +2403,11 @@ hr {
   transition-duration: 0.2s;
   transition-timing-function: ease-out;
 }
+@media (max-width: 991px) {
+  .sidebar {
+    width: 320px;
+  }
+}
 .sidebar a,
 .sidebar span.exturl {
   border-bottom-color: #555;
@@ -2450,8 +2455,7 @@ hr {
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 10%;
-  text-align: left;
-  align-items: left;
+  text-align: center;
 }
 .sub-menu {
   margin: 10px 0;

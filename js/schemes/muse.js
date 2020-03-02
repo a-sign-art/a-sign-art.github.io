@@ -1,5 +1,6 @@
 /* global NexT, CONFIG, Velocity */
 
+
 window.addEventListener('DOMContentLoaded', () => {
 
   var isRight = CONFIG.sidebar.position === 'right';
