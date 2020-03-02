@@ -1163,7 +1163,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #931b9a;
+  background: #3e01a2;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2208,7 +2208,7 @@ hr {
   }
 }
 .content {
-  padding-top: 80px;
+  padding-top: 40px;
 }
 .pagination {
   margin: 120px 0 0;
@@ -2398,15 +2398,11 @@ hr {
 }
 .sidebar {
   width: 38.2%;
+  min-width: 430px;
   z-index: 1200;
   transition-delay: 0s;
   transition-duration: 0.2s;
   transition-timing-function: ease-out;
-}
-@media (max-width: 991px) {
-  .sidebar {
-    width: 320px;
-  }
 }
 .sidebar a,
 .sidebar span.exturl {
@@ -2455,7 +2451,11 @@ hr {
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 10%;
-  text-align: center;
+  margin-bottom: 10%;
+  text-align: left;
+}
+.sidebar-inner img {
+  float: left;
 }
 .sub-menu {
   margin: 10px 0;
