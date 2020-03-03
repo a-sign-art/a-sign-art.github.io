@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>无敌兔试机小作品</title>
+    <title>无敌兔试机小品</title>
     <url>/2020/03/03/somephotos/</url>
     <content><![CDATA[<p><img src="/2020/03/03/somephotos/MG_1782.jpg" alt></p>
 <a id="more"></a>
 
-<p><img src="/2020/03/03/somephotos/MG_1860.jpg" alt><br><img src="/2020/03/03/somephotos/MG_1643.jpg" alt><br><img src="/2020/03/03/somephotos/MG_1507.jpg" alt><br><img src="/2020/03/03/somephotos/MG_1498.jpg" alt><br><img src="/2020/03/03/somephotos/MG_1487.jpg" alt><br><img src="/2020/03/03/somephotos/MG_1440.jpg" alt><br><img src="/2020/03/03/somephotos/MG_1401.jpg" alt><br><img src="/2020/03/03/somephotos/MG_1318.jpg" alt><br><img src="/2020/03/03/somephotos/MG_1311-1.jpg" alt><br><img src="/2020/03/03/somephotos/MG_1202.jpg" alt></p>
+<p><img src="/2020/03/03/somephotos/MG_1643.jpg" alt><br><img src="/2020/03/03/somephotos/MG_1507.jpg" alt><br><img src="/2020/03/03/somephotos/MG_1498.jpg" alt><br><img src="/2020/03/03/somephotos/MG_1487.jpg" alt><br><img src="/2020/03/03/somephotos/MG_1440.jpg" alt><br><img src="/2020/03/03/somephotos/MG_1401.jpg" alt><br><img src="/2020/03/03/somephotos/MG_1318.jpg" alt><br><img src="/2020/03/03/somephotos/MG_1311-1.jpg" alt><br><img src="/2020/03/03/somephotos/MG_1202.jpg" alt><br><img src="/2020/03/03/somephotos/MG_1860.jpg" alt></p>
 ]]></content>
       <categories>
         <category>Photos</category>
@@ -32,19 +32,19 @@
         <category>Writings</category>
       </categories>
       <tags>
-        <tag>jotting</tag>
+        <tag>daily</tag>
       </tags>
   </entry>
   <entry>
     <title>生命不息 折腾不止</title>
     <url>/2020/03/02/themedone/</url>
-    <content><![CDATA[<p>发布之后发现网站慢得令人发指，于是开启了新一轮的折腾。<br>换了优化更好、功能更丰富、教程更多的NexT主题，按自己的审美改了一番，感觉网站看起来很棒了，虽然依然超级宇宙无敌慢……呃。<br>网上搜到教程说搬到国内的Coding上会比较快，操作一通之后发现并没有，比Github还慢！<br>之前尝试用Gitlab实现自动编译，发现不好用，还是慢啊慢啊慢啊慢慢慢……不过最关键的问题是git push总是无限卡住传不上去啊奇怪，所以暂时无法实现咯，等我研究研究之后再说啦，慢慢来，不着急~<br>我还是先滚去写论文是正经。</p>
+    <content><![CDATA[<p>发布之后发现网站慢得令人发指，于是开启了新一轮的折腾。<br>换了优化更好、功能更丰富、教程更多的NexT主题，按自己的审美改了一番，感觉网站看起来很棒了，虽然依然超级宇宙无敌慢……呃。<br>网上搜到教程说搬到国内的Coding上会比较快，操作一通之后发现并没有，比Github还慢！<br>之前尝试用Gitlab实现自动编译，发现不好用，还是慢啊慢啊慢啊慢慢慢……不过最关键的问题是git push总是无限卡住传不上去啊奇怪，所以暂时无法实现咯，等我研究研究之后再说啦，不急不急。<br>我还是先滚去写论文是正经。</p>
 ]]></content>
       <categories>
         <category>Writings</category>
       </categories>
       <tags>
-        <tag>jottings</tag>
+        <tag>daily</tag>
       </tags>
   </entry>
   <entry>
@@ -56,7 +56,7 @@
         <category>Writings</category>
       </categories>
       <tags>
-        <tag>jottings</tag>
+        <tag>daily</tag>
       </tags>
   </entry>
   <entry>
@@ -72,7 +72,7 @@
         <category>Photos</category>
       </categories>
       <tags>
-        <tag>jottings</tag>
+        <tag>hello</tag>
       </tags>
   </entry>
   <entry>
