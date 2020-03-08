@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>宝生舞</title>
+    <url>/2020/03/08/baoshengwu/</url>
+    <content><![CDATA[<p><img src="/2020/03/08/baoshengwu/02.jpg" alt><br>我感受到的丰富度不如少女馆，也有几张印象深刻。</p>
+<a id="more"></a>
+
+<p><img src="/2020/03/08/baoshengwu/08.jpg" alt><br><img src="/2020/03/08/baoshengwu/10.jpg" alt><br><img src="/2020/03/08/baoshengwu/24.jpg" alt><br><img src="/2020/03/08/baoshengwu/44.jpg" alt><br><img src="/2020/03/08/baoshengwu/53.jpg" alt><br><img src="/2020/03/08/baoshengwu/56.jpg" alt></p>
+]]></content>
+      <categories>
+        <category>Reviews</category>
+        <category>Photos</category>
+      </categories>
+      <tags>
+        <tag>sentiments</tag>
+        <tag>reference</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>筱山纪信《少女馆》</title>
     <url>/2020/03/07/girlsroom/</url>
     <content><![CDATA[<p><img src="/2020/03/07/girlsroom/001.jpg" alt><br>《少女馆》让我想到了熔炉，想到孤儿院，想到西本雪穗，想像孩童的天真与魔鬼的诡谲交织撕扯出的人性。看过之后久久不能言语，一部优秀作品的冲击力原来这么大。</p>
@@ -13,20 +30,35 @@
       </categories>
       <tags>
         <tag>sentiments</tag>
+        <tag>reference</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>白展堂版《盗将行》摘抄</title>
+    <url>/2020/03/07/excerpts/</url>
+    <content><![CDATA[<blockquote><p>昨夜风雪未减，行人稀，夜露寒。</p>
+</blockquote>
+
+<blockquote><p>说书人说当年，擒神龙下九天，盗来凌霄十二卷，揽明月卧云巅。<br>客尽欢人群散，留小二倚门边，取笑谁胭脂浓淡，学拍案笑从前。</p>
+</blockquote>
+
+
+
+
+
+]]></content>
+      <categories>
+        <category>Reviews</category>
+      </categories>
+      <tags>
+        <tag>sentiments</tag>
+        <tag>excerpts</tag>
       </tags>
   </entry>
   <entry>
     <title>十年</title>
     <url>/2020/03/07/tenyears/</url>
     <content><![CDATA[<p>十年后惊鸿一瞥，你还似当年。如果没有那些无意中记录下的文字，要如何找寻曾经的灵性与芳华。</p>
-<a id="more"></a>
-<p>两句小摘抄</p>
-<blockquote><p>昨夜风雪未减，行人稀，夜露寒。</p>
-</blockquote>
-
-<blockquote><p>说书人说当年，擒神龙下九天，盗来凌霄十二卷，揽明月卧云巅。<br>客尽欢人群散，留小二倚门边，取笑谁胭脂浓淡，学拍案笑从前。</p>
-</blockquote>
-
 ]]></content>
       <categories>
         <category>Writings</category>
@@ -38,9 +70,7 @@
   <entry>
     <title>网管拯救拖延症</title>
     <url>/2020/03/05/wuchang/</url>
-    <content><![CDATA[<p>马住的文章一定要在被删之前看完，<br>收藏的教程一定要在下架之前学完。</p>
-<a id="more"></a>
-<p>同理，<br>实验一定要趁设备还没坏赶紧做完，<br>论文一定要趁数据服务器没挂赶紧写完，<br>打工旅行一定要在能申请的时候就赶紧申请，<br>西藏、南极一定要在身体素质还好的时候玩遍，<br>毕竟，这个世界最靠谱的真理就是——<br>无。常。</p>
+    <content><![CDATA[<p>马住的文章一定要在被删之前看完，<br>收藏的教程一定要在下架之前学完。<br>同理，<br>实验一定要趁设备还没坏赶紧做完，<br>论文一定要趁数据服务器没挂赶紧写完，<br>打工旅行一定要在能申请的时候就赶紧申请，<br>西藏、南极一定要在身体素质还好的时候玩遍，<br>毕竟，这个世界最靠谱的真理就是——<br>无。常。</p>
 <p>————记一次b站收藏的教程被删的怨念</p>
 ]]></content>
       <categories>
@@ -107,6 +137,7 @@
       </categories>
       <tags>
         <tag>daily</tag>
+        <tag>sentiments</tag>
       </tags>
   </entry>
   <entry>
@@ -122,7 +153,7 @@
         <category>Photos</category>
       </categories>
       <tags>
-        <tag>hello</tag>
+        <tag>daily</tag>
       </tags>
   </entry>
   <entry>
@@ -148,7 +179,7 @@
         <category>Reviews</category>
       </categories>
       <tags>
-        <tag>manual</tag>
+        <tag>reference</tag>
       </tags>
   </entry>
 </search>
